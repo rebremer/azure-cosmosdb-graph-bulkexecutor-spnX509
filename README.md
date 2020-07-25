@@ -1,4 +1,4 @@
-## Run Cosmos DB graph Bulk Executor as ADFv2 custom activity ##
+## Cosmos DB graph Bulk Executor as ADFv2 custom activity ##
 
 High level description of project is as follows:
 
