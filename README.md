@@ -1,6 +1,6 @@
 ## Run Cosmos DB graph Bulk Executor as ADFv2 custom activity ##
 
-Cosmos DB graph bulk executor project that uses SPN with .X509 certificate to authenticate to key vault to retrieve Cosmos DB keys. Project can be used to bulk executor as custom activity in Azure Data Factory using Azure Batch. Original project without SPN and .X509 certifcate can be found here: https://github.com/Azure-Samples/azure-cosmosdb-graph-bulkexecutor-dotnet-getting-started. The following steps are executed:
+Cosmos DB graph bulk executor project that uses an SPN with .X509 certificate to authenticate to key vault to retrieve Cosmos DB keys. Project can be used torun bulk executor as custom activity in Azure Data Factory using Azure Batch. Original project without SPN and .X509 certifcate can be found here: https://github.com/Azure-Samples/azure-cosmosdb-graph-bulkexecutor-dotnet-getting-started. The following steps are executed:
 
 1. Create a Cosmos DB graph API, Azure Key vault and add Cosmos DB secret to key vault
 2. Create a self-signed certificate, service principal and add access policy to key vault
