@@ -11,7 +11,7 @@ Original project without SPN and .X509 certifcate can be found here: https://git
 2. Create a self-signed certificate, service principal and add access policy to key vault
 3. Run project locally 
 4. Run project as custom activity in Azure Data Factory using Azure Batch
-5. Add firewall rules on Azure Key vault
+5. Add firewall rules on Azure Key vault and Cosmos DB
 
 ### 1. Create a Cosmos DB graph API, Azure Keyvault and add Cosmos DB secret to key vault ###
 
