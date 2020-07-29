@@ -3,7 +3,7 @@
 High level description of project is as follows:
 
 - Cosmos DB graph bulk executor project that uses an SPN with .X509 certificate to authenticate to key vault to retrieve Cosmos DB keys.
-- Project can be used to run bulk executor as custom activity in Azure Data Factory using Azure Batch. 
+- Project can be used to run bulk executor as custom activity in Azure Data Factory using Azure Batch to load data in Cosmos DB.
 
 Original project without SPN and .X509 certifcate can be found here: https://github.com/Azure-Samples/azure-cosmosdb-graph-bulkexecutor-dotnet-getting-started. The following steps are executed:
 
